@@ -1,0 +1,115 @@
+body{
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+  color: #222;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#photo {
+  border-radius: 100%;
+}
+
+#top{
+  width: 100%;
+  height: 60px;
+}
+
+#topbar{
+  text-align: right;
+  padding-right: 20px;
+}
+
+#top a{
+  padding-left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#searchbar{
+  width: 100%;
+  height: 37px;
+  border: 12px;
+  text-align: center;
+}
+
+#logo{
+  height: 225px;
+  width: 367px;
+  padding-top: 120px;
+  display: block;
+  margin-left: 540px;
+  margin-right: auto;
+  margin-bottom: 2px;
+}
+
+#searchform{
+  width: 540px;
+  height: 37px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+input{
+  width: 505px;
+  height: 30px;
+  float: left;
+  border: 0px;
+  margin-top: 4px;
+}
+
+#mic{
+  height: 28px;
+  width: auto;
+  margin-left: 2px;
+  margin-top: 4px;
+}
+
+buttons{
+  width: 150px;
+  height: 60px;
+  border: 1px #ccc;
+  margin: 20px;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.bottom{
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  height: 40px;
+  background-color: #f2f2f2;
+}
+
+#right {
+  float: right;
+  padding-right: 27px;
+}
+
+#left{
+  float: left;
+}
+
+#right li{
+  text-align: right;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#left li{
+  text-align: right;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+}
